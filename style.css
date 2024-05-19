@@ -1,9 +1,28 @@
-*{
 
-}
+/* phone */
+@media only screen and (min-width :300px) and (max-width :600px)  {
+    .container {
+      background-color: rgb(0, 191, 255);
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+  /* Tablet */
+@media only screen and (min-width :600px) and (max-width :992px)  {
+    .container {
+      background-color: rgb(217, 0, 255);
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
+
+  /* laptop */
+ 
 .container{
 border: 1px solid rgb(255, 255, 255);
-height: 80vh;
+height: 100vh;
 display: grid;
 
 grid-template-columns:1fr 1fr 1fr 1fr;  
@@ -21,7 +40,6 @@ grid-template-areas:
     color: aliceblue;
     text-align: center;
     grid-column: 1/-1;
-
 }
 
 .Hero{
